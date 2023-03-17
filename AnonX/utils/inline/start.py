@@ -39,7 +39,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="الاوامر ⚙️", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="قناة البوت ❄", url=config.SUPPORT_CHANNEL
+                text="قناة البوت ❄", url=f"https://t.me/ah07v"
              )
         ],
         [
