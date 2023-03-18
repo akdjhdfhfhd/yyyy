@@ -6,16 +6,16 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 def help_pannel(_, START: Union[bool, int] = None):
     first = [
         InlineKeyboardButton(
-            text=_["☆ اغلاق ☆"], callback_data=f"close"
+            text=_["☆ اغلاق_BUTTON ☆"], callback_data=f"close"
         )
     ]
     second = [
         InlineKeyboardButton(
-            text=_["♡ رجوع ♡"],
+            text=_["♡ رجوع_BUTTON ♡"],
             callback_data=f"settingsback_helper",
         ),
         InlineKeyboardButton(
-            text=_["☆ اغلاق ☆"], callback_data=f"close"
+            text=_["☆ اغلاق_BUTTON ☆"], callback_data=f"close"
         ),
     ]
     mark = second if START else first
@@ -54,11 +54,11 @@ def help_back_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    text=_["♡ رجوع ♡"],
+                    text=_["♡ رجوع_BUTTON ♡"],
                     callback_data=f"settings_back_helper",
                 ),
                 InlineKeyboardButton(
-                    text=_["☆ اغلاق ☆"], callback_data=f"close"
+                    text=_["☆ اغلاق_BUTTON ☆"], callback_data=f"close"
                 )
             ]
         ]
