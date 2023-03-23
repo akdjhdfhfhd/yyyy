@@ -60,7 +60,7 @@ async def start_comm(client, message: Message, _):
                 await asyncio.sleep(1)
                 return await m.edit(_["ustats_1"])
           
-           def get_stats():
+            def get_stats():
                 msg = ""
                 limit = 0
                 results = {}
