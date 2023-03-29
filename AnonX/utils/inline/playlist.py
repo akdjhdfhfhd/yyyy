@@ -158,8 +158,6 @@ def close_markup(_):
         ]
     )
     return upl
-
-
 function targma(msg)
 text = nil
 if msg and msg.content and msg.content.text then
