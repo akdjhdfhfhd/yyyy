@@ -44,7 +44,7 @@ async def hamd_comm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             if ChannelJoin(msg) == false then
-            await update.reply_sticker("FAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
+            await update.reply_sticker("CAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"], reply_markup=keyboard
@@ -204,7 +204,7 @@ async def hamd_comm(client, message: Message, _):
         if config.START_IMG_URL:
             try:
                 if ChannelJoin(msg) == false than
-                await update.reply_sticker("FAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
+                await update.reply_sticker("CAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
