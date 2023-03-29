@@ -203,7 +203,6 @@ async def hamd_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                if ChannelJoin(msg) == false than
                 await update.reply_sticker("CAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
