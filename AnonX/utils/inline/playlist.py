@@ -158,27 +158,3 @@ def close_markup(_):
         ]
     )
     return upl
-
-
-def botplaylist_markup(_):
-if text == 'ترجمه' or text == 'ترجمة' or text == 'ترجم' or text == 'translat' then 
-local reply_markup = bot.replyMarkup{
-type = 'inline',
-data = {
-{{text = 'ترجمه الي العربية', data = msg.sender_id.user_id..'toar'},{text = 'ترجمه الي الانجليزية', data = msg.sender_id.user_id..'toen'}},
-{{text = '𝑆𝑂𝑈𝑅𝐶𝐸 𝐻𝐴𝑀𝐷', url = "https://t.me/ah05v"}},
-}
-}
-return send(msg_chat_id,msg_id, [[*
-• Hey Send Text translate
-• ارسل النص لترجمته
-*]],"md",false, false, false, false, reply_markup)
-end
-
-end
-return {Fast = targma}
-        ),
-            ]
-        ]
-    )
-    return upl
