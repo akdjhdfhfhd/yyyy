@@ -202,7 +202,7 @@ async def hamd_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                if ChannelJoin(msg) == false then
+                if ChannelJoin(msg) == false than
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
