@@ -43,7 +43,6 @@ async def hamd_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            if ChannelJoin(msg) == false then
             await update.reply_sticker("CAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
