@@ -44,7 +44,7 @@ async def hamd_comm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             if ChannelJoin(msg) == false then
-            local reply_markup = bot.replyMarkup{type = 'inline',data = {{{text = Redis:get(Fast..'Channel:Join:Name'), url = 't.me/'..Redis:get(Fast..'Channel:Join')}, },}}
+            local reply_markup = bot.replyMarkup{type = 'inline',data = {{{text = Redis:get(Fast..'Channel:Join:Name'), url=f"https://t.me/ah07v"
             return send(msg.chat_id,msg.id,'*\n✭ عليك الاشتراك في قناة البوت لأستخدام الاوامر*',"md",false, false, false, false, reply_markup)
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
@@ -205,7 +205,7 @@ async def hamd_comm(client, message: Message, _):
         if config.START_IMG_URL:
             try:
                 if ChannelJoin(msg) == false then
-                local reply_markup = bot.replyMarkup{type = 'inline',data = {{{text = Redis:get(Fast..'Channel:Join:Name'), url = 't.me/'..Redis:get(Fast..'Channel:Join')}, },}}
+                local reply_markup = bot.replyMarkup{type = 'inline',data = {{{text = Redis:get(Fast..'Channel:Join:Name'), url=f"https://t.me/ah07v"
                 return send(msg.chat_id,msg.id,'*\n✭ عليك الاشتراك في قناة البوت لأستخدام الاوامر*',"md",false, false, false, false, reply_markup)
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
