@@ -19,7 +19,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {{text = 'ترجمه الي العربية', data = msg.sender_id.user_id..'toar'},{text = 'ترجمه الي الانجليزية', data = msg.sender_id.user_id..'toen'}},
-{{text = ' ◜𝐒𝐎𝐔𝐑𝐂𝐄 𝐕𝐄𝐆𝐀◞', url = "https://t.me/SOURCEVEGA"}},
+{{text = '𝑆𝑂𝑈𝑅𝐶𝐸 𝐻𝐴𝑀𝐷', url = "https://t.me/ah05v"}},
 }
 }
 return send(msg_chat_id,msg_id, [[*
