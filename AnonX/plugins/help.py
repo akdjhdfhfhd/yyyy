@@ -60,6 +60,7 @@ async def helper_private(
         _ = get_string(language)
         keyboard = help_pannel(_)
         if ChannelJoin(msg) == false than
+        await update.reply_sticker("FAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
         await update.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
