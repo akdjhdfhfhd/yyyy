@@ -102,12 +102,12 @@ async def addbot(client: Client, message: Message):
 2 • ارفعه مشرف بكل الصلاحيات 
 3 • لو تبي تشوف الاوامر اكتب [ م الاوامر ] ولو تبي تشغل على طول اكتب ميرا شغلي + اسم المقطع الصوتي
 • مثال : ميرا شغلي واتنسيت
-- لو واجهت مشكله او ما فهمت خطوة كلم مطور البوت ~ @C_C_1""",
+- لو واجهت مشكله او ما فهمت خطوة كلم مطور البوت ~ @ah_2_v""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/ah07v"),
                 ],[
                     InlineKeyboardButton(
                         "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
@@ -124,14 +124,14 @@ async def addbot(client: Client, message: Message):
     await message.reply_text(f"""**- اهلين فيك بسورس ميرا ياحلو
 • لو تبي تنصب مثل هالبوت تواصل مع مطور السورس
 • عندك استفسار او اقتراح بخصوص البوت تواصل مع مطور البوت**
-مطور السورس -› [Khaled](t.me/C_C_1)
-قناة السورس -› [𝑺𝒐𝒖𝒓𝒄𝒆 𝑴𝒊𝒓𝒂](t.me/NvvvC)
+مطور السورس -› [Khaled](t.me/ah_2_v)
+قناة السورس -› [𝑺𝒐𝒖𝒓𝒄𝒆 𝑴𝒊𝒓𝒂](t.me/ah07v)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/ah07v"),
                 ],[
                     InlineKeyboardButton(
                         "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
@@ -222,8 +222,8 @@ async def laksk(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
-                ],[
+                        "", urlurl=f"https://t.me/ah07v"),
+                ],
                     InlineKeyboardButton(
                         "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
                 ],
@@ -240,7 +240,7 @@ async def channvom(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/ah07v"),
                 ],[
                     InlineKeyboardButton(
                         "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
@@ -263,7 +263,7 @@ async def dowmmr(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/ah07v"),
                 ],[
                     InlineKeyboardButton(
                         "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
@@ -279,7 +279,7 @@ async def dowhmr(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/ah07v"),
                 ],[
                     InlineKeyboardButton(
                         "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
@@ -296,7 +296,7 @@ async def dowhmo(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/ah07v"),
                 ],[
                     InlineKeyboardButton(
                         "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
@@ -304,4 +304,4 @@ async def dowhmo(client: Client, message: Message):
             ]
         ),
         disable_web_page_preview=True
-    ) 
+    )
